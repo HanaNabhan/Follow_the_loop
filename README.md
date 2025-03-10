@@ -3,6 +3,12 @@
 ## Overview
 This project implements a **Pure Pursuit Path Tracking Algorithm** for autonomous vehicles using **ROS (Robot Operating System)**. The algorithm processes odometry data to estimate the car's position, orientation, and speed, then calculates the steering angle needed to follow a predefined reference path.
 
+<p align="center">
+  <img src="https://github.com/HanaNabhan/Follow_the_loop/blob/main/real-life.jpg" alt="Real-life Car Trajectory" width="400"/>
+  <img src="https://github.com/HanaNabhan/Follow_the_loop/blob/main/infinity.jpg" alt="Infinity Path" width="400"/>
+</p>
+
+
 ## Features
 - **Proportional Speed Control:** Dynamically adjusts vehicle speed based on target velocity.
 - **Look-Ahead Distance Calculation:** Selects target waypoints to ensure smooth navigation.
